@@ -1,0 +1,14 @@
+<hr class="featurette-divider">
+{{foo}}
+{{#each posts}}
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading"><a class="" href="/news/{{../routeType}}/{{ID}}">{{title}}</a></h2>
+            <p>{{content}}</p>
+        </div>
+        <div class="col-md-5"
+            <img class="featurette-image img-responsive center-block" src="{{post_thumbnail.URL}}" alt="Generic placeholder image">
+        </div>
+    </div>
+    <hr class="featurette-divider"> 
+{{/each}}
