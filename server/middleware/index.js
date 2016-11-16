@@ -18,9 +18,7 @@ module.exports = function (app) {
     defaultLayout: 'main',
     extname: '.hbs',
     // Specify helpers which are only registered on this instance. 
-    helpers: {
-      foo: function () { return 'FOO!'; },
-    },
+    helpers: {},
   });
   app.engine('.hbs', hbs.engine);
   app.set('view engine', '.hbs');
