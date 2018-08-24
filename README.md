@@ -1,5 +1,9 @@
+
 # forwardslashnews
 A quick express sample.
+
+# (U+4074)
+![](https://github.com/nixworks/forwardslashnews/blob/master/AI/ArtBoard%20Image%20(474).jpg)
 
 ## Testing
 Uses JEST
